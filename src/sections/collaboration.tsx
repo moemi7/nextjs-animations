@@ -74,7 +74,7 @@ export const Collaboration = () => {
             <motion.div style={{ scale, x, y }} className="origin-top">
               <motion.img
                 style={{ opacity }}
-                src="/main-screen.svg"
+                src="https://mrwallpaper.com/images/hd/marketing-online-word-cloud-lnw9js79gv0kuk66.jpg"
                 className="h-auto max-h-none w-[70vw]"
               />
               <motion.div
@@ -84,18 +84,9 @@ export const Collaboration = () => {
                 <motion.img
                   style={{ scale: avatarOneScale }}
                   className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#4ca] object-cover"
-                  src="https://unsplash.com/photos/_H6wpor9mjs/download?force=true&w=128&h=128"
+                  src="https://i.pinimg.com/originals/5f/ff/a5/5fffa5a9c38842df88817abdd122bfb4.jpg"
                 />
-                <motion.img
-                  style={{ scale: avatarTwoScale, opacity: avatarTwoOpacity }}
-                  className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#c82] object-cover"
-                  src="https://unsplash.com/photos/sibVwORYqs0/download?force=true&w=128&h=128"
-                />
-                <motion.img
-                  style={{ scale: avatarThreeScale }}
-                  className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#f0f] object-cover"
-                  src="https://unsplash.com/photos/7YVZYZeITc8/download?force=true&w=128&h=128"
-                />
+
               </motion.div>
             </motion.div>
           </div>

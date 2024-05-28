@@ -1,6 +1,8 @@
 import { GithubIcon } from "@/icons/github";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import Image from 'next/image'
+
 
 export const Hero = () => {
   const targetRef = useRef<HTMLDivElement | null>(null);
@@ -37,11 +39,19 @@ export const Hero = () => {
       ref={targetRef}
       className="relative mb-[8rem] h-screen py-16 text-white before:pointer-events-none before:fixed before:inset-0 before:z-0 before:bg-[radial-gradient(circle_farthest-side_at_var(--x,_100px)_var(--y,_100px),_var(--color-secondary)_0%,_transparent_100%)] before:opacity-40"
     >
+       <Image
+         src="/logorembg.png"
+         alt="Landscape picture"
+         width={250}
+         height={250}
+         className="absolute top-10 left-0 "
+          />
 
       <motion.div
         style={{ position, scale, x: "-50%" }}
         className="fixed left-1/2 z-10 flex flex-col items-center"
       >
+    
         <p className="mb-2 text-xl font-light">
           <span className="font-medium">CRM</span> Leadswift
         </p>
